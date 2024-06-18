@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-light;
+  src: url("./assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Druk;
+  src: url("./assets/fonts/DrukCyr-Medium.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 99.8%;
+  width: 100%;
+  font-size: 10px;
+  padding: 0;
+  background-color: #ececec;
+
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input[type="text"] {
+  writing-mode: horizontal-tb !important;
+  padding-block: 0px;
+  padding-inline: 0px;
+  padding-left: 10px;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 100%;
+  border-radius: 10px !important;
+  height: 2.6rem;
+  font-size: 0.9rem;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+ 
+}
+
+.react-datepicker__input-container {
+  height: 100%;
+  height:2.6rem;
+}
+
+.custom-date {
+  height: 100%;
+  width: 95%;
+  max-height: 2.5rem;
+  border-radius: 10px !important;
+  outline: none;
+  border: 1px solid;
+  border-color: #0000003b;
+  font-family: Roboto;
+  font-size: 0.9rem;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #7E5AB8!important;
+
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
+li {
+  margin:0;
+}
+
+
+/* .donutchart-legend {
+  display: none;
+  position: absolute;
+}
+
+.donutchart-legend * {
+  display: none;
+  position: absolute;
+} */
